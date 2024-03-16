@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baby_pink"
+    tools:context=".ConversionActivity">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversion Activity"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Input field for liters -->
+    <EditText
+        android:id="@+id/litersEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Liters"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Convert Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_700"
+        android:layout_below="@id/litersEditText"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/convertButton"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Previous Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/previousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/resultTextView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
