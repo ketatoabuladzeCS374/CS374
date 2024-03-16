@@ -42,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    private void convertLitersToGallons() {
+        // Get the value from the EditText and convert it to double
+        String litersStr = litersEditText.getText().toString();
+        double liters = Double.parseDouble(litersStr);
+
+        // Perform the conversion
+        double gallons = liters * 0.264172;
+
+        // Display the result
+        resultTextView.setText(String.format("%.2f liters = %.2f gallons", liters, gallons));
+    }
 
     // Method to start the ConversionActivity
     private void startConversionActivity() {
