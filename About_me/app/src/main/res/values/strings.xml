@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">About me</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Biography</string>
+    <string name="second_fragment_label">Hobbies</string>
+    <string name="third_fragment_label">Contact</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="contact">Contacts</string>
+    <string name="hobbies">Hobbies</string>
+
+    <string name="Bio">
+        "My name is Ketevan (Ketato) Abuladze, and I am from Georgia, a beautiful country
+        in the Caucasus region. I am 21 years old, soon turning 22. I came to NYC to pursue my studies
+        in computer science. My childhood dream was to become a professional tennis player, but unfortunately,
+        due to health issues, I had to give up on that dream. However, I've found a new passion in computer
+        science and aspire to be successful in this field. I have two brothers, one older and one younger.
+        Interestingly, both the age gaps between me and my older brother and between me and my younger
+        brother are 7 years. My family still resides in Georgia, and while I miss them dearly,
+        I cherish the time we spend together during vacations."
+    </string>
+    <string name="Hobbies">
+        "I have a variety of hobbies that keep me engaged and entertained. One of my passions is playing
+        tennis, where I find joy and excitement in the fast-paced nature of the sport. Additionally,
+        I enjoy the serene experience of riding horses, feeling the connection between myself and the
+        magnificent animal beneath me. In quieter moments, you'll often find me engrossed in a good book,
+        exploring new worlds and ideas through the pages. For a bit of excitement and competition,
+        I also indulge in playing video games, where I can immerse myself in virtual adventures.
+        Photography is another hobby close to my heart, especially film photography,
+        where I relish the process of capturing moments on analog film and the anticipation of
+        seeing the final images. And of course, I love spending time in the kitchen, experimenting
+        with different ingredients and flavors to create delicious meals for myself and others.
+        These hobbies bring balance and fulfillment to my life, offering both excitement and relaxation in equal measure."
+    </string>
+    <string name="email_address">"Email: Ketatoabuladze@gmail.com"</string>
+    <string name="phone_number">"Phone Number: +1(929)264-2673"</string>
+</resources>
